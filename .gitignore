@@ -1,0 +1,8 @@
+venv/
+.DS_Store
+notion_export/
+output_pdf/
+output_transcoded/
+__pycache__/
+*.pyc
+_tmp_*.html
