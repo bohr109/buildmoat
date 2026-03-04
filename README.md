@@ -10,6 +10,16 @@ Batch convert Notion HTML exports to PDF with optional watermark and Traditional
 
 ## Installation
 
+It is recommended to use a virtual environment:
+
+```bash
+python -m venv venv
+source venv/bin/activate  # macOS/Linux
+# venv\Scripts\activate   # Windows
+```
+
+Then install dependencies:
+
 ```bash
 pip install opencc-python-reimplemented beautifulsoup4 playwright
 playwright install chromium
